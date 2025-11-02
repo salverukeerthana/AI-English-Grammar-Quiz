@@ -5,7 +5,7 @@ import re
 # -------------------------------
 # CONFIGURATION
 # -------------------------------
-genai.configure(api_key="AIzaSyC8FOY-Ll1BPUl-4wYeYsxpBttwNwd4f08")
+genai.configure(api_key="Enter_your_api")
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 st.set_page_config(page_title="AI English Grammar Quiz", layout="centered")
